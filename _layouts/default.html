@@ -1,0 +1,45 @@
+---
+---
+<!-- Metadata -->
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>{{ page.title | Alniarez }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="{{ page.description }}">
+    <meta name="theme-color" content="#282828"/>
+    {% if page.og %}
+      <meta property="og:title" content="{{ page.title | Alniarez }}" />
+      <meta property="og:type" content="profile" />
+      <meta property="og:url" content="https://alniarez.de{{ page.url }}" />
+      <meta property="og:description" content="{{ page.description }}" />
+      <meta property="og:image" content="https://alniarez.de/assets/images/default.png" />
+    {% endif %}
+    {% if page.noindex %}
+      <meta name="robots" content="noindex">
+      <meta name="googlebot" content="noindex" />
+    {% endif %}
+    <link rel="icon" href="/assets/images/favicon.png">
+
+{% include css.html %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/encryption.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133482433-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133482433-1');
+    </script>
+  </head>
+  <body>    
+{% include navigation.html %}
+<!-- Content -->
+{{ content }}
+  </body>
+</html>

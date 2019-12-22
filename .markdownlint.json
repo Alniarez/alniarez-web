@@ -1,0 +1,7 @@
+{
+    "no-hard-tabs": false,
+    "MD033": {
+        "allowed_elements": [ "h1", "h2", "h3", "button", "a", "HR", "p", "div", "i", "ul", "li", "span", "script", "br", "img" ]
+      },
+      "line-length": false
+}
