@@ -25,7 +25,7 @@ nav-type: top
     <!-- Subtitle -->
     <div class="display-bottommiddle container center">
         <p class="hide-medium hide-large">Software, games, photography and other shenanigans</p>
-        <p>Jorge Sierra Miranda - 2019</p>
+        <p>Jorge Sierra Miranda - 2020</p>
     </div>
     <!-- Links -->
     <div class="container display-left super-large-font hide-small animate-from-left">

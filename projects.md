@@ -29,7 +29,7 @@ nav-type: sticky blur
     <p>Now the crypto craze is <i>over</i> and I moved to different projects; nonetheless it was fun and I did learn a lot. The code for all my bots will eventually be set to public on Github.</p>
     <p>You can see some reviews of my work on <a href="https://www.fiverr.com/alniarez">my Fiverr profile</a> where I used to offer my services for a short periof of time.</p>
     <h3>Cloud Meadow</h3>
-    <p>This is a video game I worked on for more than a year (14 months), It's still on development.</p>
+    <p>This is a video game I worked on for more than a year. It's still on development but about to be released!</p>
     <img class="rounded image center" src="/assets/images/CM_Banner_January_2018.png" alt="Cloud Meadow banner">
     <p>Cloud Meadow is a hybrid farming sim dungeon crawler, where the player can choose the solitude of a quiet sky high farm or the rushing adrenaline of a raging battle inside abandoned ruins, both of which benefit one another.</p>
     <p>I was the main programmer for a long time on this game. I worked with some awesome people and they are working hard to make this game.</p>
