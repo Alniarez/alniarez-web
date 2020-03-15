@@ -1,6 +1,7 @@
 <!-- navigation -->
-<nav class="{{ page.nav-type }}">
-	<a id="nav-home" href="/"><i class="fa fa-home fa-fw"></i> Home</a>
-	<a id="nav-about"  href="/about"><i class="fa fa-envelope fa-fw"></i> About me</a>
-	<a id="nav-projects" href="/projects"><i class="fa fa-cubes fa-fw"></i> Projects</span></a>
+{% assign current = page.url | downcase | split: '.' %}
+<nav class="blur">
+	{% for item in site.data.navigation %}
+	<a {% if item.link  == current[0] %}class='underlined'{% endif %} href="{{ item.link }}"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+	{% endfor %}
 </nav>

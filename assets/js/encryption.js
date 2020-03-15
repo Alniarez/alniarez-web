@@ -28,19 +28,21 @@ function decodeStr(coded) {
 // ---
 
 function showSecretEmail(){
-    $( ".secretMailto" ).each( function( index, element ){
-        var secretEmail = element.getAttribute("data-secret")
+    var elements = document.getElementsByClassName('secretMailto')
+    for (var i = 0; i < elements.length; i++) {
+        var secretEmail = elements[i].getAttribute("data-secret")
         var email = decodeStr(secretEmail).toLowerCase()
-        element.href = "mailto:" + email
-        element.innerText = email
-    })
+        elements[i].href = "mailto:" + email
+        elements[i].innerText = email
+    }
 }
 
 function showSecretSpan(){
-    $( ".secretSpanText" ).each( function( index, element ){
-        var secretData = element.getAttribute("data-secret")
+    var elements = document.getElementsByClassName('secretSpanText')
+    for (var i = 0; i < elements.length; i++) {
+        var secretData =  elements[i].getAttribute("data-secret")
         var realData = decodeStr(secretData).toLowerCase()
-        element.innerText = realData
-    })
+        elements[i].innerText = realData
+    }
 }
 
