@@ -114,7 +114,11 @@ a {
 }
 
 .font-title {
-  font-size: calc(1.5rem + 12vw);;
+  font-size: calc(1.5rem + 12vw);
+}
+
+.font-sub-title{
+  font-size: calc(1rem + 1.3vw);
 }
 
 .font-super-big {
