@@ -9,12 +9,7 @@ og: yes
         <h1 class="font-title">Alniarez</h1>
     </section>
     <section>
-        <p class="font-sub-title">Software, games, photography and other shenanigans</p>
-    </section>
-    <section class="grid center">
-        <a class="font-super-big" href="https://www.instagram.com/alniarez/"><i class="fab fa-instagram"></i></a>
-        <a class="font-super-big" href="https://twitter.com/Alniarez"><i class="fab fa-twitter-square"></i></a>
-        <a class="font-super-big" href="https://github.com/alniarez"><i class="fab fa-github"></i></a>
+        <p class="font-sub-title">This my personal lair <span style="text-decoration: line-through;text-decoration: line-through;">constantly evolving website</span>. Here you can find all the stuff that comes out of my spare time: software, games, photography and other shenanigans.</p>
     </section>
 </div>
 
