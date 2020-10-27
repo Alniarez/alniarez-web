@@ -4,6 +4,6 @@
 - name: About me
   link: /about
   icon: fa fa-envelope fa-fw
-- name: Projects
-  link: /projects
-  icon: fa fa-cubes fa-fw
+# - name: Projects
+#   link: /projects
+#   icon: fa fa-cubes fa-fw
