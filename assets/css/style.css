@@ -6,6 +6,7 @@
   --selection-color: #a300cc;
   --text-color: #d7d7d7;
   --background-color: #282828;
+  --background-color-alternative: #3D3D3D;
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,6 +15,7 @@
     --selection-color: #fff759;
     --text-color: #2e2e2e;
     --background-color: #f6f6f6;
+    --background-color-alternative: #E1E1E1; 
   }
 }
 
@@ -170,6 +172,12 @@ footer {
 
 .flex{
   display: flex;
+}
+
+pre {
+  background-color: var(--background-color-alternative);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .flex.column{
