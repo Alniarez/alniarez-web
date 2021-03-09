@@ -59,11 +59,13 @@ choco install vscode
     ```
     [Download](https://hashlink.haxe.org/#download) the lastest release (1.11 in my case) and run:
     ```
-    sudo mv hashlink-1.11.tar.gz /opt
-    cd /opt
-    sudo tar xzf hashlink-1.11.tar.gz
+    mv hashlink-1.11.tar.gz ~/opt
+    cd ~/opt
+    tar xzf hashlink-1.11.tar.gz
     cd hashlink-1.11/
+
     sudo make
+    sudo make install
     ```
 
 6. **Install additional libraries**: Install OpenAL, DirectX and SDL/GL libraries.
@@ -83,7 +85,8 @@ choco install vscode
  ```
  haxe --version #4.2.1
  which hl #/usr/local/bin/hl
- hl #hl: error while loading shared libraries: libhl.so: cannot open shared object file: No such file or directory
- ```
+ hl #HL/JIT 1.11.0 (c)2015-2019 Haxe Foundation
+    #    Usage : hl [--debug <port>] [--debug-wait] <file>
+```
 
-Oy! That is not what I expected. Something didn't work out. I'll go to sleep and check it later on. Luckily by the time you read this, it will be working.
+That looks good so far.
