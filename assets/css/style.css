@@ -158,6 +158,10 @@ a {
   grid-template-columns: 1fr ;
 }
 
+#visible > * {
+  min-width: 0;
+}
+
 /* Containers and all this */
 main {
   padding: 0 3rem 2rem 3rem;
@@ -178,17 +182,24 @@ pre {
   background-color: var(--background-color-alternative);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
+
+  overflow: auto;
 }
 
 .flex.column{
   flex-direction: column;
 }
 
-.grid{
+.grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
 }
+
+.grid > * {
+  min-width: 0;
+}
+
 
 .grid.center,
 .flex.center{
