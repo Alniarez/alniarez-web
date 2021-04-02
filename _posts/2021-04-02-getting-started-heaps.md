@@ -27,16 +27,15 @@ Well, first things go first: installing all I need into my development environme
 
 Let's go to [the official docu](https://heaps.io/documentation/installation.html) and follow along to install all the requirements.
 
-1. **Install [Haxe](https://haxe.org/download/linux/)**: Just 2 commands. I will be using the default shared location and not my home directory.
+1. **Install [Haxe](https://haxe.org/download/linux/)**: Just 2 commands. I will be using the default shared location (/usr/share/haxe/lib) and not my home directory.
 ```
 sudo pacman -S haxe
-haxelib setup # Just press enter to use the default folder location (/usr/share/haxe/lib)
+haxelib setup 
 ```
 
 2. **Installing Heaps using haxelib**: Copy & Paste from the docu. Sometimes Linux is really the easiest option.
 ```
 haxelib install heaps
-
 ```
 
 3. **Install VS Code**: I could use Code - OSS instead, but the extensions needed are published on visualstudio.com and I did not bother to see how of if I can get those into OSS. I just installed VS Code from snapcraft.
@@ -55,7 +54,7 @@ sudo snap install code --classic
     haxelib install hldx
     ```
 
-It all looks like it is working. Checking both Haxe and Hashlink:
+It looks like it is working. Checking both Haxe and Hashlink:
  ```
  haxe --version #4.2.1
  which hl #/usr/local/bin/hl
@@ -65,6 +64,6 @@ It all looks like it is working. Checking both Haxe and Hashlink:
 
 That looks good so far. But I can't stop here. Let's go to the [Hello world example](https://heaps.io/documentation/hello-hashlink.html) and follow along. The only diference is that I don't have Chrome installed. I will set the json on *launch.json* as "type": "firefox".
 
-![Hello world of Firefox](/assets/images/blog/2021-03-07-getting-started-heaps/firefox.png)
+![Hello world of Firefox](/assets/images/blog/2021-04-02-getting-started-heaps/firefox.png)
 
 All good so far. 
