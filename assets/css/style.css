@@ -136,9 +136,12 @@ a {
   text-decoration-color: var(--highlights-color);
 }
 
-.image {
+img {
   max-width: 100%;
   height: auto;
+}
+
+.image {
   margin-left: auto;
   margin-right: auto;
 }
