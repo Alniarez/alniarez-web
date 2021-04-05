@@ -6,7 +6,7 @@ title:  "Getting started with Heaps on Manjaro"
 # {{ page.title }}
 
 I have written games and small snippets in different game engines/programing languages over the time. From java running natively on android, to assembly code for the Sega Genesis.
-I like to think of myself as a capable language agnostic developer, but when it come to video games most of my tim has been under the Unity umbrella
+I like to think of myself as a capable language agnostic developer, but when it come to video games most of my time has been under the Unity umbrella.
 
 If you have used Unity before you will know that it has a few "gotchas" here and there. 
 I want to have more control over the code I write and the way I make it work. 
@@ -18,10 +18,9 @@ It looks like a decent tool: flexible, powerful and... obscure?
 It is not like no one knows about it. There is an active community, some discord server and a few blog entries; But for sure it is not as popular as many other options.
 
 Maybe this posts will turn into a decent source of knowledge (probably not  ¯\\_(ツ)_/¯ ).  
-In any case I will be documentingmy process as I try to learn, use, and eventually master Heaps.io, or my decadent downward spiral into giving up.
+In any case I will be documenting my process as I try to learn, use, and eventually master Heaps.io, or my decadent downward spiral into giving up.
 
 Well, first things go first: installing all I need into my development environment. I'm currently running Manjaro version 5.9.16.
-
 
 ## Installing Heaps.io on Manjaro
 
