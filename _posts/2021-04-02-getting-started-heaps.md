@@ -38,12 +38,15 @@ haxelib setup
 haxelib install heaps
 ```
 
-3. **Install VS Code**: I could use Code - OSS instead, but the extensions needed are published on visualstudio.com and I did not bother to see how of if I can get those into OSS. I just installed VS Code from snapcraft.
-```
-sudo snap install code --classic
-```
+3. **Install VS Code**: In the case of Manjaro the easy way to install Visual Studio from Snaps. **DO NOT**. This is problematic as the Snaps version has issues with debugging and Dynamic Link.
+I installed Code - OSS from the main Manjaro program repository.
 
-4. **Installing Haxe extensions on vscode**: Extensions; search for [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack); click install. It is all there in the [documentation](https://heaps.io/documentation/installation.html). 
+4. **Installing Haxe extensions on Code - OSS**: The extensions panel search does not show the [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack). Open the link and download each extension manually with the **Download Extension**. Add them to code oss from *Extensions > menu > Install from VSIX*.
+* [Haxe](https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe)
+* [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox)
+* [Flash Debugger](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-debug)
+* [HashLink Debugger](https://marketplace.visualstudio.com/items?itemName=HaxeFoundation.haxe-hl)
+* [HXCPP Debugger](https://marketplace.visualstudio.com/items?itemName=vshaxe.hxcpp-debugger)  
 
 5. **Install the Hashlink VM**. It says it's optional, but I'm going for it too. It is [here](https://aur.archlinux.org/packages/hashlink/).
 
