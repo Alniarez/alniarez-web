@@ -3,6 +3,7 @@ layout: default
 title: About me - Alniarez
 description: Alniarez's projects
 og: yes
+noindex: yes
 nav-type: sticky blur
 ---
 <section class="boxed margin">
