@@ -7,6 +7,6 @@
 # - name: Projects
 #   link: /projects
 #   icon: fa fa-cubes fa-fw
-- name: Archives
-  link: /archives
-  icon: fa fa-blog fa-fw
+# - name: Archives
+#  link: /archives
+#  icon: fa fa-blog fa-fw
