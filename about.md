@@ -15,7 +15,7 @@ description: Hello, I'm Jorge Sierra, aka Alniarez. Learn a bit about me and obt
 	<p>After a short career (over a year) as a videogame developer I moved into developing web apps and chat bots as a freelancer.</p>
 	<p>During the cryptocurrency craze I worked on multiple software projects for investors, control groups and other crypto-related people.</p>
 	<p>Shortly after I moved to Germany with the intention of challenging myself to learn the language while I work as a software developer and data analyst.</p>
-	<p>I am not located in the south of Germany working as a frontend developer.</p>
+	<p>I am now located in the south of Germany working as a frontend developer.</p>
 	<p>On my short professional career I have:</p>
 	<ul class="ul">
 		<li>participated in more than 20 software projects</li>
