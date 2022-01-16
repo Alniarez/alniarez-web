@@ -33,7 +33,6 @@ description: Hello, I'm Jorge Sierra, aka Alniarez. Learn a bit about me and obt
 <section>
 	<h2><i class="fas fa-comments"></i> Chat with me</h2>
 	<p><i class="fab fa-discord font-big"></i> Discord: <span>Alniarez#5019</span></p>
-	<p><i class="fab fa-skype font-big"></i> Skype: <span>jorge.darnier</span> (I prefer Discord over Skype)</p>
 </section>
 <section>
 	<h2>Find me on</h2>
