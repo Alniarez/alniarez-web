@@ -6,5 +6,7 @@ noindex: yes
 # Blog posts
 
 {% for post in site.posts %}
-* *{{ post.date  | date: "%Y %B %-d"}}* - **[{{ post.title }}]({{ post.url }})**
+* **[{{ post.title }}]({{ post.url }})** *{{ post.date  | date: "%Y %B %-d"}}*{: .date}
 {% endfor %}
+
+
