@@ -1,8 +1,8 @@
 ---
 layout: post
+title: Markdown everywhere!
+tags: website
 ---
-
-# Markdown everywhere!
 
 The entirety of the website "*source*" is now writen in markdown.
 

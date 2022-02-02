@@ -20,7 +20,7 @@ The day I got my diploma I started working on videogames professionally as a con
 
 After a short career (over a year) as a videogame developer I moved into developing web apps and chat bots as a freelancer.
 
-During the cryptocurrency craze I worked on multiple software projects for investors, control groups and other crypto-related people.
+During the cryptocurrency craze of 2017 I worked on multiple software projects for investors, control groups and other crypto-related people (Yikes).
 
 Shortly after I moved to Germany with the intention of challenging myself to learn the language while I work as a software developer and data analyst.
 
@@ -28,9 +28,13 @@ I am now located in the south of Germany working as a frontend developer.
 
 On my short professional career I have:
 * participated in more than 20 software projects
+
 * worked for contractors in the 5 continents
+
 * wrote code in 5 different programming languages
+
 * worked in the adult entertainment industry
+
 * drank 0 cups of coffee
 
 

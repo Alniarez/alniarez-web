@@ -3,10 +3,15 @@
 /* colours */
 :root {
   --highlights-color: #fff759;
-  --selection-color: #513881;
+  --selection-color: #817238;
   --text-color: #d7d7d7;
   --background-color: #282828;
   --background-color-alternative: #3D3D3D;
+
+  --tag-color-videogames: #2D8E39;
+  --tag-color-personal: #AA2424;
+  --tag-color-development: #4877E6;
+  --tag-color-website: #4532A2;
 }
 /* No more light theme!
 @media (prefers-color-scheme: light) {
@@ -26,7 +31,7 @@
 /* Generic elements */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Fira Sans", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -277,4 +282,27 @@ blockquote {
   border-color: var(--text-color);
   border-style: solid;
   border-width: 1px 1px 1px 8px;
+}
+
+.tag {
+  font-size: 0.7rem;
+  border-radius: 0.5rem;
+  background: var(--background-color-alternative);
+  padding: 0.3rem;
+}
+
+.tag.development {
+  background: var(--tag-color-development);
+}
+
+.tag.personal {
+  background: var(--tag-color-personal);
+}
+
+.tag.videogames {
+  background: var(--tag-color-videogames);
+}
+
+.tag.website {
+  background: var(--tag-color-website);
 }

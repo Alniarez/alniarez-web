@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Getting started with Heaps on Manjaro"
+tags: development videogames
 ---
-
-# {{ page.title }}
 
 I have written games and small snippets in different game engines/programing languages over the time. From java running natively on android, to assembly code for the Sega Genesis.
 I like to think of myself as a capable language agnostic developer, but when it come to video games most of my time has been under the Unity umbrella.
