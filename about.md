@@ -27,6 +27,7 @@ Shortly after I moved to Germany with the intention of challenging myself to lea
 I am now located in the south of Germany working as a frontend developer.
 
 On my short professional career I have:
+
 * participated in more than 20 software projects
 
 * worked for contractors in the 5 continents
@@ -36,7 +37,6 @@ On my short professional career I have:
 * worked in the adult entertainment industry
 
 * drank 0 cups of coffee
-
 
 ## <i class="fa fa-envelope fa-fw"></i> Mail me
 

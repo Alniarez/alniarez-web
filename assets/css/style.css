@@ -13,17 +13,7 @@
   --tag-color-development: #4877E6;
   --tag-color-website: #4532A2;
 }
-/* No more light theme!
-@media (prefers-color-scheme: light) {
-  :root {
-    --highlights-color: #a300cc;
-    --selection-color: #fff759;
-    --text-color: #2e2e2e;
-    --background-color: #f6f6f6;
-    --background-color-alternative: #E1E1E1; 
-  }
-}
-*/
+
 ::selection {
   background-color: var(--selection-color);
   }
@@ -38,6 +28,8 @@ html {
 
   color: var(--text-color);
   background: var(--background-color);
+
+  padding: 60px 120px;
 }
 
 *,
@@ -153,41 +145,6 @@ img {
 .image {
   margin-left: auto;
   margin-right: auto;
-}
-
-/* page layout */
-#visible {
-  margin: 0;
-  padding: 8px;
-  height: 100vh;
-
-  display: grid;
-  grid-template-areas: 
-  'nav'
-  'main'
-  'footer';
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr ;
-}
-
-#visible > * {
-  min-width: 0;
-}
-
-/* Containers and all this */
-main, article {
-  padding: 0 0 2rem 0;
-  grid-area: main;
-  margin-bottom: auto;
-
-  max-width: 1200px;
-  justify-self: center;
-  width: 100%;
-}
-
-section,
-footer {
-  padding: 0.2rem 1rem;
 }
 
 .flex{

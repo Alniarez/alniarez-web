@@ -4,14 +4,13 @@ title: Projects - Alniarez
 description: Alniarez's projects
 og: yes
 noindex: yes
-nav-type: sticky blur
 ---
 
 # Projects
 
-> I'm a software developer that enjoys programming way too much. I'm always starting side projects and doing all sort creative of stuff.
+> I'm a software developer that enjoys starting new projects every month. I'm always starting side projects and doing all sort creative of stuff all the time, but this is not very productive.
 >
-> I upload some of the code I do to [Github](https://github.com/alniarez), most is private anyway as it is uncomplete or not useful at all.
+> I upload my code to [Github](https://github.com/alniarez), it's mostly private but there are thing there from time to time.
 
 ## What I am up to?
 

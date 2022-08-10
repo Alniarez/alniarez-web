@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% if page.redirect %}
-<meta http-equiv="refresh" content="0;url={{ page.redirect }}" />
+<meta http-equiv="refresh" content="6;url={{ page.redirect }}" />
 {% endif %}
 {% if page.og %}
 <meta property="og:title" content="{{ page.title | Alniarez }}" />
@@ -22,14 +22,12 @@
 
 <link rel="icon" href="/assets/images/favicon.png">
 
+{% include navigation.html %}
+
 {% include css.html %}
 
-<div id="visible">
-  {% include navigation.html %}
-  
-  <main>
-  {{ content }}
-  </main>
+<main>
+{{ content }}
+</main>
 
-  {% include footer.html %}
-</div>
+{% include footer.html %}
