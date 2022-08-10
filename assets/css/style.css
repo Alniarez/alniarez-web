@@ -29,18 +29,13 @@ html {
   color: var(--text-color);
   background: var(--background-color);
 
-  padding: 60px 120px;
+  padding: 3.5rem 8rem;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-body,
-html {
-  height: 100%;
 }
 
 h1 {
@@ -219,6 +214,7 @@ nav a:hover {
 
 footer {
   grid-area: footer;
+  margin-top: 4rem;
 }
 
 /* Decoration */
