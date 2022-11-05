@@ -2,16 +2,23 @@
 
 /* colours */
 :root {
+  --text-color: #e8e8df;
+  --text-color-rgb: 232, 232, 223;
+  --color-0: #282828;
+  --color-2: #3D3D3D;
+  --color-3-rgb:32, 32, 32;
+  --color-3: #202020;
+
   --highlights-color: #fff759;
   --selection-color: #817238;
-  --text-color: #d7d7d7;
-  --background-color: #282828;
-  --background-color-alternative: #3D3D3D;
 
   --tag-color-videogames: #2D8E39;
   --tag-color-personal: #AA2424;
   --tag-color-development: #4877E6;
   --tag-color-website: #4532A2;
+
+  --mouse-x:0;
+  --mouse-y:0;
 }
 
 ::selection {
@@ -27,7 +34,7 @@ html {
   scroll-behavior: smooth;
 
   color: var(--text-color);
-  background: var(--background-color);
+  background: var(--color-0);
 
   padding: 30px;
 }
@@ -76,7 +83,7 @@ hr {
   border: 0;
   margin: 18px 0;
   border-bottom: 2px solid var(--text-color);
-  border-top: 1px solid var(--background-color);
+  border-top: 1px solid var(--color-0);
 }
 
 ul {
@@ -147,7 +154,7 @@ img {
 }
 
 pre {
-  background-color: var(--background-color-alternative);
+  background-color: var(--color-2);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 
@@ -240,7 +247,7 @@ blockquote {
 .tag {
   font-size: 0.7rem;
   border-radius: 0.5rem;
-  background: var(--background-color-alternative);
+  background: var(--color-2);
   padding: 0.3rem;
 }
 
@@ -258,4 +265,38 @@ blockquote {
 
 .tag.website {
   background: var(--tag-color-website);
+}
+
+.title-posts {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  gap: 10px;
+}
+
+.title-posts .preview {
+  position: relative;
+  border: transparent solid 2px;
+
+  border-image: radial-gradient(700px circle at var(--mouse-x) var(--mouse-y), var(--color-2), transparent) 10;
+  border-image-width: 2px;
+}
+
+.title-posts .preview:hover::before{
+  opacity: 1;
+}
+
+.title-posts .preview::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: -1;
+
+  opacity: 0;
+  transition: opacity 666ms ease-out;
+
+  background: radial-gradient(900px circle at var(--mouse-x) var(--mouse-y), rgba(var(--text-color-rgb), 0.05), rgba(var(--color-3-rgb), 0.05) 50%);
 }
