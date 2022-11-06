@@ -183,7 +183,6 @@ pre {
 }
 
 /* Navitation */
-
 .blur {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -202,29 +201,39 @@ nav {
   */
 }
 
-@media all and (max-width: 800px) {
-  nav {
-    justify-content: space-around;
-  }
-}
-
-nav a, nav span {
+nav a,
+nav span {
   text-decoration: none;
   text-align: center; 
   display: block;
-  padding: 1em;
+  padding: 0.8em;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: center;
+    row-gap: 0.3em;
+  }
+
+  nav a,
+  nav span {
+    padding: 0.2em;
+  }
+
+}
+
+/* footer */
+
 footer {
   grid-area: footer;
   margin-top: 4rem;
 }
 
-/* Decoration */
+/* Header decorations */
 h1::before,
 h2::before,
 h3::before,
@@ -236,6 +245,7 @@ h6::before {
   content: '';
 }
 
+/* Blog elements */
 blockquote {
   padding: 0.2rem 1rem;
   margin: 0;
@@ -267,6 +277,7 @@ blockquote {
   background: var(--tag-color-website);
 }
 
+/* Landing page posts */
 .title-posts {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
