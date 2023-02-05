@@ -60,4 +60,4 @@ For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fk
 [<i class="fab fa-steam-square font-big"></i> Steam](https://steamcommunity.com/id/Alniarez/)
 {: .grid}
 
-<script src="/assets/js/encryption.js"></script>
+<script defer src="/assets/js/encryption.js"></script>
