@@ -157,7 +157,7 @@ img {
 }
 
 img.limit-size {
-height: 36rem;
+max-height: 36rem;
 }
 
 .flex{

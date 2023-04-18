@@ -42,7 +42,7 @@ Before he arrived I took lars back into the cage. I wanted them all to be togeth
 
 ![Cora says goodbye](/assets/images/blog/2023-04-18.lars-memorial/lars5.jpg){: .limit-size}
 
-When my friend finally arrived I moved Lars to a cardboard box. We drove to the animal shelter at the other sice of town.
+When my friend finally arrived I moved Lars to a cardboard box. We drove to the animal shelter at the other side of town.
 We got the burial organized. Lars was left with them. The burial would happen the next day. The location is reserved for me and Lars for the next 6 years.
 
 Talking to her previous owner I digged a bit more into Lars history. 
