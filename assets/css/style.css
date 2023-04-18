@@ -186,6 +186,16 @@ pre {
   min-width: 0;
 }
 
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  max-width: 88rem;
+  margin: 0 auto;
+}
+
 
 .grid.center,
 .flex.center{
