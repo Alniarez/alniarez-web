@@ -156,6 +156,10 @@ img {
   margin-right: auto;
 }
 
+img.limit-size {
+height: 36rem;
+}
+
 .flex{
   display: flex;
 }
