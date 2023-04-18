@@ -7,7 +7,7 @@ noindex: yes
 
 
 {% for post in site.posts %}
-* {: .preview} **[{{ post.title }}]({{ post.url }})**{: .title}
+* {: .preview } **[{{ post.title }}]({{ post.url }})**{: .title}
   *{{ post.date  | date: "%Y %B %-d"}}*{: .date}
   <span>{% for tag in post.tags %}<span class='tag {{tag}}'>{{tag}}</span>{% endfor %}</span>{: .tags}
   <span>{{ post.excerpt | strip_html | truncatewords: 20 }}</span>{: .excerpt}
@@ -24,4 +24,13 @@ document.body.onmousemove = e => {
     preview.style.setProperty('--mouse-y', `${y}px`)
   }
 }
+
+document.querySelectorAll('.preview').forEach(item => {
+    let link = item.querySelector('.title a');
+    if(!!link)
+      item.addEventListener('click', event => {
+      console.log('click on link' + link)
+      link.click()
+    })
+})
 </script>

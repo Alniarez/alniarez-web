@@ -194,6 +194,7 @@ body {
 main {
   max-width: 88rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 
@@ -306,6 +307,8 @@ blockquote {
   border-image-width: 2px 2px 2px 8px;
 
   padding: 1rem;
+
+  cursor: pointer;
 }
 
 .title-posts .preview:hover::before{
@@ -342,10 +345,12 @@ blockquote {
 }
 .title-posts .preview p .tags{
   grid-area: tags;
+  align-self: end;
 }
 .title-posts .preview p .date{
   grid-area: date;
   justify-self: end;
+  align-self: end;
 }
 .title-posts .preview p .excerpt{
   grid-area: excerpt;
