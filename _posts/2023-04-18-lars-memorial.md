@@ -59,4 +59,6 @@ My guinea pigs have been the highlight of my life this last few difficult years.
 
 I am devastated because of his departure, but life goes on and his love will stay with me for ever.
 
+![Lars tomb](/assets/images/blog/2023-04-18.lars-memorial/lars6.jpg){: .limit-size}
+
 > I love you Lars.
