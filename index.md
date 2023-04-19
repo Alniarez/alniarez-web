@@ -60,7 +60,7 @@ For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fk
 
 [<i class="fab fa-twitter-square font-big"></i> Twitter](https://twitter.com/Alniarez)
 [<i class="fab fa-instagram font-big"></i> Instagram](https://www.instagram.com/alniarez/)
-[<i class="fab fa-facebook-square font-big"></i> Facebook](https://www.facebook.com/Alniarez/)
+<!--[<i class="fab fa-facebook-square font-big"></i> Facebook](https://www.facebook.com/Alniarez/)-->
 [<i class="fab fa-linkedin font-big"></i> LinkedIn](xhttps://www.linkedin.com/in/jorge-sierra-miranda/x)
 [<i class="fab fa-github font-big"></i> Github](https://github.com/alniarez)
 [<i class="fab fa-youtube font-big"></i> YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
