@@ -355,3 +355,13 @@ blockquote {
 .title-posts .preview p .excerpt{
   grid-area: excerpt;
 }
+
+table tr th {
+  text-decoration: underline;
+}
+
+table tr td {
+  padding: 0 0.4em;
+}
+
+
