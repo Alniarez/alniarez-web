@@ -52,11 +52,12 @@ We got the burial organized. Lars was left with them. The burial would happen th
 Talking to her previous owner I digged a bit more into Lars history. 
 Lars was adopted from a household where he was not wanted. His cage partner and lover had died already and he was no longer a youngster. 
 He moved with his new owner and was introduced to Cora.
-They lived together for 6 years until her life got complicated. 
+They lived together for 6 years until her life got complicated (the owner, not the piggies). 
 I showed up then and adopted Lars and Cora in 2020. That makes his death date of 17/04/2023 to be between his 10th and 12th year of life. Lars was indeed a very old animal. 
 
 I worked hard to give him and the others the best life I could give. 
-Lars warmed my heart and everyone's he meet. He was not the smartest but he was very brave in the presence of food. 
+Lars warmed my heart and everyone's he meet. 
+He was not the smartest but he was very brave in the presence of food.
 He survived  multiple owners, complicated medical issues and reached a very advanced age. 
 Being with him was a joy.
 My guinea pigs have been the highlight of my life this last few difficult years. 
