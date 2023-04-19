@@ -21,13 +21,17 @@ Before going to bed I kissed my guinea pigs good night, as I always do.
 
 Lars was hidden in one of the pockets, I raised the fleece and gave him a kiss on his nose. He jumped out into one of the house hideouts and looked at me. "Good night Lars, I love you" I said while booping his nose.
 
-When I woke up next morning I went to greet them good morning. I instantly saw him, collapsed on the floor. Rear legs stretched out, collapsed sideways onto is front left leg.
+When I woke up next morning I went to greet them good morning. I instantly saw him, collapsed on the floor.
+Rear legs stretched out, collapsed sideways on top of his front left leg.
 
-He was in front of his favourite hideout, a cloth strawberry. Maybe he slept in it, woke up, and on his last moment, he standed up, and went out of the hideout just to fall down in front of it. I just can only hope his last moments were painless.
+He was in front of his favourite hideout, a cloth strawberry. Maybe he slept in it, woke up, and on his last moment, he standed up, and went out of the hideout just to fall down in front of it.
+I just can only hope his last moments were painless.
 
-I put him on a bed and covered with a clean cloth. He was already cold and getting stiff. I just sat next to him, crying, and telling him how much I love him.
+I put him on a bed and covered with a clean cloth. He was already cold and getting stiff.
+I just sat next to him, crying, and telling him how much I love him.
 
-I messaged my close friends and starting planning the rest of the day. It was going to be a really hard day. I went to a hardware store and got clay, on the way back I stopped on a flower shop as they were opening and got some flowers for Lars.
+I messaged my close friends and started planning the rest of the day. It was going to be a really hard day.
+I went to a hardware store and got clay, on the way back I stopped on a flower shop as they were opening and got some flowers for Lars.
 
 
 At home I rested the flowers with Lars and used the clay to take prints of his hands.
