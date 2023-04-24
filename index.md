@@ -11,7 +11,6 @@ og: yes
 I am Jorge Sierra Miranda. Welcome to my ~~personal website~~ lair. Here you can find all the stuff that comes out of my spare time: software, games, photography and other shenanigans.
 {: .font-sub-title}
 
-
 # About me
 
 > I am Jorge Sierra Miranda, I go by the name of Alniarez on the Internet.
@@ -46,26 +45,26 @@ On my short professional career I have:
 
 * drank 0 cups of coffee
 
-## <i class="fa fa-envelope fa-fw"></i> Mail me
+## {% icon fa fa-envelope fa-fw  %} Mail me
 
 For mundane conversations: [🖱](#){: class="secretMailto" data-secret="ujG.fkxVd%40RLyxkUfS" onmouseover="showSecretEmail()"}
 
 For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fkSuqHp%40LdyjoSgUSTkuxyyLOb" onmouseover="showSecretEmail()"}
 
-## <i class="fas fa-comments"></i> Chat with me
+## {% icon fas fa-comments %} Chat with me
 
-<i class="fab fa-discord font-big"></i> Discord: *Alniarez#5019*
+{% icon fab fa-discord font-big %} Discord: *Alniarez#5019*
 
 ## Find me on
 
-[<i class="fab fa-twitter-square font-big"></i> Twitter](https://twitter.com/Alniarez)
-[<i class="fab fa-instagram font-big"></i> Instagram](https://www.instagram.com/alniarez/)
-<!--[<i class="fab fa-facebook-square font-big"></i> Facebook](https://www.facebook.com/Alniarez/)-->
-[<i class="fab fa-linkedin font-big"></i> LinkedIn](xhttps://www.linkedin.com/in/jorge-sierra-miranda/x)
-[<i class="fab fa-github font-big"></i> Github](https://github.com/alniarez)
-[<i class="fab fa-youtube font-big"></i> YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
-[<i class="fab fa-twitch font-big"></i> Twitch](https://www.twitch.tv/mitetis/)
-[<i class="fab fa-steam-square font-big"></i> Steam](https://steamcommunity.com/id/Alniarez/)
+[{% icon fab fa-twitter-square font-big %} Twitter](https://twitter.com/Alniarez)
+[{% icon fab fa-instagram font-big %} Instagram](https://www.instagram.com/alniarez/)
+<!--[{% icon fab ffa-facebook-square font-big %} Facebook](https://www.facebook.com/Alniarez/)-->
+[{% icon fab fa-linkedin font-big %} LinkedIn](xhttps://www.linkedin.com/in/jorge-sierra-miranda/x)
+[{% icon fab ffa-github font-big %} Github](https://github.com/alniarez)
+[{% icon fab fa-youtube font-big %} YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
+[{% icon fab fa-twitch font-big %} Twitch](https://www.twitch.tv/mitetis/)
+[{% icon fab fa-steam-square font-big %} Steam](https://steamcommunity.com/id/Alniarez/)
 {: .grid}
 
 <script defer src="/assets/js/encryption.js"></script>
