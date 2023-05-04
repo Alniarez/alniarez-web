@@ -192,7 +192,7 @@ body {
 }
 
 main {
-  max-width: 88rem;
+  max-width: 66rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -365,3 +365,6 @@ table tr td {
 }
 
 
+.limit-block pre {
+  max-height: 35rem;
+}

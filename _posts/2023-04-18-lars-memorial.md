@@ -6,14 +6,14 @@ tags: personal
 
 Lars was my beloved elder guina pig, and he passed in the early morning of the 17th of april 2023.
 
-![Lars happy after taking down a hay rack](/assets/images/blog/2023-04-18.lars-memorial/lars1.jpg){: .limit-size}
+![Lars happy after taking down a hay rack](/assets/images/blog/2023-04-18-lars-memorial/lars1.jpg){: .thumbnail .image-gallery-thumbnail}
 
 He recently suffered from hair loss but he had recovered and his hair was growing back healthy and beautifully. But he had also lost almost 300 grams of weight since Christmas day. It does not sound like a lot but for an animal that was 1300g at his largest, being 1030g after a few month is a lot.
 
 Yesterday I expressed my concerns about his age with some friends.
 "I'm worried he is just too old" I said, as I shared his image, him showing no signs of giving up, hungry and active.
 
-![Lars outside the cage, his last picture alive](/assets/images/blog/2023-04-18.lars-memorial/lars2.jpg){: .limit-size}
+![Lars outside the cage, his last picture alive](/assets/images/blog/2023-04-18-lars-memorial/lars2.jpg){: .thumbnail .image-gallery-thumbnail}
 
 This picture above would be the last time anyone else but me saw him alive.
 
@@ -36,15 +36,15 @@ I went to a hardware store and got clay, on the way back I stopped on a flower s
 
 At home I rested the flowers with Lars and used the clay to take prints of his hands.
 
-![Lars laying under flowers](/assets/images/blog/2023-04-18.lars-memorial/lars3.jpg){: .limit-size}
-![Lars paw prints](/assets/images/blog/2023-04-18.lars-memorial/lars4.jpg){: .limit-size}
+![Lars laying under flowers](/assets/images/blog/2023-04-18-lars-memorial/lars3.jpg){: .thumbnail .image-gallery-thumbnail}
+![Lars paw prints](/assets/images/blog/2023-04-18-lars-memorial/lars4.jpg){: .thumbnail .image-gallery-thumbnail}
 
 
 A friend came by, he was going to take me and Lars to a [local animal shelter](https://www.tierheim-karlsruhe.de/) that has a [pet cemetery](https://www.tierheim-karlsruhe.de/tierfriedhof/).  
 
 Before he arrived I took lars back into the cage. I wanted them all to be together a last time. Cora aproached us, she is the smartest one, I think she knew what was going on. I want to think that she wished farewell to her lifelong cage partnet.
 
-![Cora says goodbye](/assets/images/blog/2023-04-18.lars-memorial/lars5.jpg){: .limit-size}
+![Cora says goodbye](/assets/images/blog/2023-04-18-lars-memorial/lars5.jpg){: .thumbnail .image-gallery-thumbnail}
 
 When my friend finally arrived I moved Lars to a cardboard box. We drove to the animal shelter at the other side of town.
 We got the burial organized. Lars was left with them. The burial would happen the next day. The location is reserved for me and Lars for the next 6 years.
@@ -64,6 +64,8 @@ My guinea pigs have been the highlight of my life this last few difficult years.
 
 I am devastated because of his departure, but life goes on and his love will stay with me for ever.
 
-![Lars tomb](/assets/images/blog/2023-04-18.lars-memorial/lars6.jpg){: .limit-size}
+![Lars tomb](/assets/images/blog/2023-04-18-lars-memorial/lars6.jpg){: .thumbnail .image-gallery-thumbnail}
 
 > I love you Lars.
+
+{% include image-viewer.html %}
