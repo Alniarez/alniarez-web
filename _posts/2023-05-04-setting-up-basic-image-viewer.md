@@ -170,7 +170,7 @@ There is some basic styling, also not very complicated.
 
 With this I have the basics covered. 
 
-Now to add the images I could add the plain html into the website, but I am [avoiding html](https://alniarez.de/2022/01/30/conversion-to-markdown.html) on the site as much as I can. 
+Now to add the images I could add the plain html into the website, but I am [avoiding html](https://alniarez.de/2022/01/30/conversion-to-markdown) on the site as much as I can. 
 
 So, very easy. Add the images just as markdown with the help of my current pluggins.
 
