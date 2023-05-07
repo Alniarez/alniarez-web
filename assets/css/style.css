@@ -143,7 +143,14 @@ a {
 }
 
 figure {
-  margin: 0
+  margin: 0.5em 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 33rem);
+  gap: 0.5em;
+
+  justify-items: center;
+  align-items: center;
 }
 
 img {
@@ -192,7 +199,7 @@ body {
 }
 
 main {
-  max-width: 66rem;
+  max-width: 70rem;
   margin: 0 auto;
   width: 100%;
 }

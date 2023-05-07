@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up a basic javascript image viewer with javascript"
+title:  "Setting up a basic image viewer with javascript"
 tags: website development
 ---
 I am writing a log of my trip to aniMUC this year. 
