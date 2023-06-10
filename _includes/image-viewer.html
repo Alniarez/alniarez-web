@@ -1,128 +1,118 @@
 <style>
- .thumbnail {
-    max-width: 320px;
-    max-height: 320px;
-}
-  
-#viewer {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    width: 100vw;
-    height: 100vh;
-
-    max-width: 100vw;
-    max-height: 100vh;
-
-    background-color: rgba(0, 0, 0, 0.5);
+.thumbnail {
+  max-width: 320px;
+  max-height: 320px;
 }
 
-#viewer figure {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
-    justify-items: center;
-    align-items: center;
-    gap: 1rem;
-
-    padding: 1rem;
-
-    width: 100vw;
-    height: 100vh;
-
-    max-width: 100vw;
-    max-height: 100vh;
+dialog[open] {
+  max-width: 96vw;
+  max-height: 96vh;
 }
 
-#viewer figure img{
-    width: auto;
-    height: auto;
+dialog figure {
+  max-width: calc(95vw - 32px);
+  max-height: calc(95vh - 32px);
 
-    max-height: 100%;
-    max-width: 100%;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  align-items: center;
+  gap:16px
 }
 
-#viewer .controls {
-    position: absolute;
-    top: 0;
-    right: 0;
+dialog figure img{
+  max-width: calc(94vw - 82px);
+  max-height: calc(94vh - 82px);
 }
 
-#viewer .controls button {
-    border: none;
-    padding: 0;
-    color: var(--highlights-color);
-    background-color: var(--color-transparent);
-    font-size: 2rem;
-    margin: 1rem;
-    cursor: pointer;
+dialog figure figcaption {
+  max-height: 50px;
 }
+
+dialog .controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+dialog .controls button {
+  border: none;
+  padding: 0;
+  color: var(--highlights-color);
+  background-color: var(--color-transparent);
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+dialog .controls button .label {
+  /*
+  display: none;
+  visibility: hidden;
+  */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+dialog .controls button:hover .label,
+dialog .controls button:focus .label,
+dialog .controls button:focus-within .label {
+  /*
+  display: initial;
+  visibility: initial;
+  */
+  opacity: 1;
+}
+
 </style>
 
+<dialog>
+    <figure>
+      <img src="#" alt="image">
+      <figcaption>image</figcaption>
+    </figure>
+    <div class="controls">
+        <button onclick="closeDialog()"><span class="label">Close </span><i class="fa fa-window-close"></i></button>
+    </div>
+</dialog>
+
+
 <script defer>
-    var imageViewer = undefined
-    
+      function openDialog(){
+        const dialog = document.querySelector("dialog")
+        //dialog.show() // Opens a non-modal dialog
+        dialog.showModal() // Opens a modal
+    }
+
+    function closeDialog(){
+        const dialog = document.querySelector("dialog")
+        dialog.close()
+    }
+
     function showImage(imageSRC, imageText) {
-      if(imageViewer === undefined){
-        createImageViewer()
-      }
-    
-      let image = imageViewer.querySelector('img')
-      image.src = imageSRC
-      image.setAttribute('alt', imageText)
-    
-      let caption = imageViewer.querySelector('figcaption')
-      caption.innerText = imageText
+        const dialog = document.querySelector("dialog")
+
+        if(!dialog.open){
+            openDialog()
+        }
+
+        let image = dialog.querySelector('img')
+        image.src = imageSRC
+        image.setAttribute('alt', imageText)
+
+        let caption = dialog.querySelector('figcaption')
+        caption.innerText = imageText
     }
-    
-    function closeViewer() {
-      document.querySelector('#viewer').remove()
-      imageViewer = undefined
-      document.removeEventListener('keyup', imageViewerEscape)
-    } 
-    
-    function createImageViewer(){
-      let closeButton = document.createElement('button')
-      closeButton.innerHTML = '<i class="fa fa-window-close"></i>' 
-      closeButton.addEventListener("click", closeViewer)
-    
-      // Other buttons if needed (zoom, next...)
-    
-      let controls = document.createElement('div')
-      controls.classList.add('controls')
-    
-      controls.appendChild(closeButton) 
-    
-      let figure = document.createElement('figure')
-      let img = document.createElement('img')
-      let figcaption = document.createElement('figcaption')
-    
-      figure.appendChild(img) 
-      figure.appendChild(figcaption) 
-    
-      let section = document.createElement('section')
-      section.id = 'viewer'
-    
-      section.appendChild(figure)
-      section.appendChild(controls)
-    
-    
-      imageViewer = section
-      document.body.appendChild(imageViewer);
-    
-      document.addEventListener('keyup', imageViewerEscape)
-    }
-    
-    function imageViewerEscape(event) {
-        if (event.key === 'Escape' || event.key === 'Esc') 
-          closeViewer();
-    }
-    
+
     document.querySelectorAll('.image-gallery-thumbnail').forEach(item => {
         // console.dir(item)
         item.addEventListener('click', event => {
           showImage(item.src, item.alt)
         })
     })
-    </script>
+</script>
+    

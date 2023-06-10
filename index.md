@@ -53,13 +53,12 @@ For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fk
 
 ## {% icon fas fa-comments %} Chat with me
 
-{% icon fab fa-discord font-big %} Discord: *Alniarez#5019*
+{% icon fab fa-discord font-big %} Discord: *@Alniarez*
 
 ## Find me on
 
 [{% icon fab fa-twitter-square font-big %} Twitter](https://twitter.com/Alniarez)
 [{% icon fab fa-instagram font-big %} Instagram](https://www.instagram.com/alniarez/)
-<!--[{% icon fab fa-facebook-square font-big %} Facebook](https://www.facebook.com/Alniarez/)-->
 [{% icon fab fa-linkedin font-big %} LinkedIn](xhttps://www.linkedin.com/in/jorge-sierra-miranda/x)
 [{% icon fab fa-github font-big %} Github](https://github.com/alniarez)
 [{% icon fab fa-youtube font-big %} YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)

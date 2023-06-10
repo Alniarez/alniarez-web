@@ -142,7 +142,7 @@ a {
   text-decoration-color: var(--highlights-color);
 }
 
-figure {
+.figure {
   margin: 0.5em 0;
 
   display: grid;
@@ -153,11 +153,17 @@ figure {
   align-items: center;
 }
 
+dialog,
+dialog * {
+  box-sizing: border-box;
+}
+/*
 img {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
-
+*/
 .image {
   margin-left: auto;
   margin-right: auto;
@@ -297,12 +303,13 @@ blockquote {
   display: flex;
   align-items: center;
   gap: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 /* Landing page posts */
 .title-posts {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(255px, 1fr) );
   gap: 0.9rem;
 }
 
