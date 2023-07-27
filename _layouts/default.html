@@ -20,6 +20,10 @@
 <meta name="googlebot" content="noindex" />
 {% endif %}
 
+{% if page.imageviewer %}
+{% include image-viewer.html %}
+{% endif %}
+
 <!--<link rel="icon" href="/assets/images/favicon.png">-->
 
 {% include favicon.html %}
