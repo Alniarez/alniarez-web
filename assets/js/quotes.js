@@ -53,5 +53,9 @@ r_quote[49] = "Cold, biscuits, chicken, yellow, mailman";
 r_quote[50] = "Very good";
 r_quote[50] = "Certainly does!";
 
-var quote = r_quote[Math.floor(Math.random() * r_quote.length)];
-document.getElementById('quote').innerHTML = quote;
+function setQuote() {
+    var quote = r_quote[Math.floor(Math.random() * r_quote.length)];
+    document.getElementById('quote').innerHTML = quote;
+}
+
+setQuote();
