@@ -7,6 +7,6 @@
 - name: Photography
   link: /photography
   icon: fa fa-camera-retro fw
-- name: Archives
-  link: /archives
+- name: Blog
+  link: /blog
   icon: fa fa-blog fa-fw

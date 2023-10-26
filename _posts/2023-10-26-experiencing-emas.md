@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Experiencing emacs
-tags: personal developmen
+tags: personal development
 ---
 
 This is just a small chapter 0 on my trip to learn and use emacs.
