@@ -49,5 +49,9 @@ r_quote[45] = "Connie... Connie...";
 r_quote[46] = "No, Connie, over here. Help me...";
 r_quote[47] = "Please drive off me";
 r_quote[48] = "Not again!";
+r_quote[49] = "Cold, biscuits, chicken, yellow, mailman";
+r_quote[50] = "Very good";
+r_quote[50] = "Certainly does!";
+
 var quote = r_quote[Math.floor(Math.random() * r_quote.length)];
 document.getElementById('quote').innerHTML = quote;
