@@ -1,2 +1,2 @@
 encoding: utf-8
-permalink: /archives/:categories/:year/:month/:day/:title/
+permalink: /blog/:categories/:year/:month/:day/:title/
