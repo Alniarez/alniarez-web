@@ -1,9 +1,9 @@
 - name: Home
   link: /
   icon: fa fa-home fa-fw
-- name: Projects
-  link: /projects
-  icon: fa fa-cubes fa-fw
+#- name: Projects
+#  link: /projects
+#  icon: fa fa-cubes fa-fw
 - name: Photography
   link: /photography
   icon: fa fa-camera-retro fw
