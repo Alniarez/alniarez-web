@@ -220,15 +220,19 @@ main {
 /* Navitation */
 nav {
   grid-area: nav;
-  display: grid;
+
+  /*display: grid;
   grid-template-columns: repeat( auto-fit, minmax(125px, 1fr) );
   gap: 1.2rem 0.9rem;
+  */
 
   justify-items: center;
 
-  /*flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
+  gap:1rem;
   justify-content: flex-start;
-  */
+
   /*
   position: -webkit-sticky;
   position: sticky;
@@ -378,7 +382,10 @@ table tr td {
   padding: 0 0.4em;
 }
 
-
 .limit-block pre {
   max-height: 35rem;
+}
+
+footer > #quote{
+  cursor: pointer;
 }
