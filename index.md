@@ -29,8 +29,6 @@ After a short career (over a year) as a videogame developer I moved into develop
 
 During the cryptocurrency craze of 2017 I worked on multiple software projects for investors, control groups and other crypto-related people (Yikes).
 
-Shortly after I moved to Germany with the intention of challenging myself to learn the language while I work as a software developer and data analyst.
-
 I am now located in the south of Germany working as a frontend developer.
 
 On my short professional career I have:
