@@ -57,7 +57,7 @@ For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fk
 
 [{% icon fab fa-twitter-square font-big %} Twitter](https://twitter.com/Alniarez)
 [{% icon fab fa-instagram font-big %} Instagram](https://www.instagram.com/alniarez/)
-[{% icon fab fa-linkedin font-big %} LinkedIn](xhttps://www.linkedin.com/in/jorge-sierra-miranda/x)
+[{% icon fab fa-linkedin font-big %} LinkedIn](https://www.linkedin.com/in/jorge-sierra-miranda/x)
 [{% icon fab fa-github font-big %} Github](https://github.com/alniarez)
 [{% icon fab fa-youtube font-big %} YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
 [{% icon fab fa-twitch font-big %} Twitch](https://www.twitch.tv/mitetis/)
