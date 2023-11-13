@@ -60,7 +60,6 @@ For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fk
 [{% icon fab fa-linkedin font-big %} LinkedIn](https://www.linkedin.com/in/jorge-sierra-miranda/x)
 [{% icon fab fa-github font-big %} Github](https://github.com/alniarez)
 [{% icon fab fa-youtube font-big %} YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
-[{% icon fab fa-twitch font-big %} Twitch](https://www.twitch.tv/mitetis/)
 [{% icon fab fa-steam-square font-big %} Steam](https://steamcommunity.com/id/Alniarez/)
 {: .grid}
 
