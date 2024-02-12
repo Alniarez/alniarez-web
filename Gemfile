@@ -8,3 +8,5 @@ gem "jekyll"
 gem 'jekyll-loading-lazy'
 
 gem "webrick", "~> 1.7"
+
+gem "json", "~> 2.7"
