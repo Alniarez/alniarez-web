@@ -7,6 +7,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll"
 gem 'jekyll-loading-lazy'
 
-gem "webrick", "~> 1.7"
+gem "webrick"
 
-gem "json", "~> 2.7"
+gem "json"
