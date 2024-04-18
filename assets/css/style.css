@@ -327,3 +327,12 @@ table tr td {
 footer > #quote{
   cursor: pointer;
 }
+
+ul.list-post > li:focus-within,
+ul.list-post > li:hover {
+  backdrop-filter: brightness(150%) blur(4px);
+}
+
+.note {
+  
+}

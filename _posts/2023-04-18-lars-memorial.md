@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lars memorial"
+title: "Lars memorial"
 tags: personal
 ---
 Lars was my beloved elder guinea pig, and he passed in the early morning of the 17th of april 2023.

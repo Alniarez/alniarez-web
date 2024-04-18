@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting started with Heaps on Manjaro"
+title: "Getting started with Heaps on Manjaro"
 tags: development videogames
 ---
 I have written games and small snippets in different game engines/programming languages over the time. From java running natively on android, to assembly code for the Sega Genesis.
