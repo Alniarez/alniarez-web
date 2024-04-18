@@ -3,8 +3,7 @@ layout: post
 title:  "Lars memorial"
 tags: personal
 ---
-
-Lars was my beloved elder guina pig, and he passed in the early morning of the 17th of april 2023.
+Lars was my beloved elder guinea pig, and he passed in the early morning of the 17th of april 2023.
 
 ![Lars happy after taking down a hay rack](/assets/images/blog/2023-04-18-lars-memorial/lars1.jpg){: .thumbnail .image-gallery-thumbnail}
 
@@ -24,7 +23,7 @@ Lars was hidden in one of the pockets, I raised the fleece and gave him a kiss o
 When I woke up next morning I went to greet them good morning. I instantly saw him, collapsed on the floor.
 Rear legs stretched out, collapsed sideways on top of his front left leg.
 
-He was in front of his favourite hideout, a cloth strawberry. Maybe he slept in it, woke up, and on his last moment, he standed up, and went out of the hideout just to fall down in front of it.
+He was in front of his favourite hideout, a cloth strawberry. Maybe he slept in it, woke up, and on his last moment, he stood up, and went out of the hideout just to fall down in front of it.
 I just can only hope his last moments were painless.
 
 I put him on a bed and covered with a clean cloth. He was already cold and getting stiff.
@@ -42,7 +41,7 @@ At home I rested the flowers with Lars and used the clay to take prints of his h
 
 A friend came by, he was going to take me and Lars to a [local animal shelter](https://www.tierheim-karlsruhe.de/) that has a [pet cemetery](https://www.tierheim-karlsruhe.de/tierfriedhof/).  
 
-Before he arrived I took lars back into the cage. I wanted them all to be together a last time. Cora aproached us, she is the smartest one, I think she knew what was going on. I want to think that she wished farewell to her lifelong cage partnet.
+Before he arrived I took lars back into the cage. I wanted them all to be together a last time. Cora approached us, she is the smartest one, I think she knew what was going on. I want to think that she wished farewell to her lifelong cage partner.
 
 ![Cora says goodbye](/assets/images/blog/2023-04-18-lars-memorial/lars5.jpg){: .thumbnail .image-gallery-thumbnail}
 

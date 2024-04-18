@@ -3,8 +3,6 @@ layout: post
 title:  "Setting up a basic image viewer with javascript part 2"
 tags: website development
 ---
-
-
 This post is a follow up of [a previous post](/blog/2023/05/04/setting-up-basic-image-viewer/).
 
 With the new [dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) the toy implementation that I came out previosly is automatically outdated.

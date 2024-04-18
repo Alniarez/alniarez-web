@@ -204,7 +204,9 @@ body {
   flex-flow: column;
 }
 
-main {
+main,
+nav,
+footer {
   max-width: 70rem;
   margin: 0 auto;
   width: 100%;
@@ -308,70 +310,6 @@ blockquote {
   align-items: center;
   gap: 0.9rem;
   margin-bottom: 1rem;
-}
-
-/* Landing page posts */
-.title-posts {
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(255px, 1fr) );
-  gap: 0.9rem;
-}
-
-.title-posts .preview {
-  position: relative;
-  border: transparent solid 2px;
-
-  border-image: radial-gradient(700px circle at var(--mouse-x) var(--mouse-y), var(--color-2), transparent) 10;
-  border-image-width: 2px 2px 2px 8px;
-
-  padding: 1rem;
-
-  cursor: pointer;
-}
-
-.title-posts .preview:hover::before{
-  opacity: 1;
-}
-
-.title-posts .preview::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-
-  z-index: -1;
-
-  opacity: 0;
-  transition: opacity 666ms ease-out;
-
-  background: radial-gradient(900px circle at var(--mouse-x) var(--mouse-y), rgba(var(--text-color-rgb), 0.05), rgba(var(--color-3-rgb), 0.05) 50%);
-}
-
-.title-posts .preview p {
-  display: grid;
-  grid-template-areas: 'title title' 'excerpt excerpt' ' tags date';
-  align-content: space-between;
-  gap: 10px;
-  height: 100%;
-  margin: 0;
-}
-
-.title-posts .preview p .title{
-  grid-area: title;
-}
-.title-posts .preview p .tags{
-  grid-area: tags;
-  align-self: end;
-}
-.title-posts .preview p .date{
-  grid-area: date;
-  justify-self: end;
-  align-self: end;
-}
-.title-posts .preview p .excerpt{
-  grid-area: excerpt;
 }
 
 table tr th {

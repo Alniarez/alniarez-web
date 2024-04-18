@@ -3,9 +3,8 @@ layout: post
 title:  "I have a blog!"
 tags: personal
 ---
-
 Yeah, I do. But I don't really have anything to post.
-I do not think that writting a blog just for myself is better than writting notes for myself on my [obsidian](https://obsidian.md/) vault.
+I do not think that writing a blog just for myself is better than writing notes for myself on my [obsidian](https://obsidian.md/) vault.
 
 ```¯\_(ツ)_/¯```
 

@@ -3,7 +3,6 @@ layout: post
 title: Experiencing emacs
 tags: personal development
 ---
-
 This is just a small chapter 0 on my trip to learn and use emacs.
 
 For my personal use, I have been mostly using [vscodium](https://vscodium.com) and [code OSS](https://github.com/microsoft/vscode/wiki/Differences-between-the-repository-and-Visual-Studio-Code) interchangeably.

@@ -3,7 +3,6 @@ layout: post
 title: Markdown everywhere!
 tags: website
 ---
-
 The entirety of the website "*source*" is now writen in markdown.
 
 I have converted most of the website to the [standard markdown language](https://www.markdownguide.org/basic-syntax/).
