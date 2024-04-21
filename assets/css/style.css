@@ -7,8 +7,6 @@
   --color-0: #282828;
   --color-1: #4e4e4d;
   --color-2: #a8a460;
-  --color-3-rgb:32, 32, 32;
-  --color-3: #202020;
 
   --highlights-color: #fff759;
   --selection-color: #817238;
@@ -82,8 +80,19 @@ h6 {
   margin: 10px 0;
 }
 
-nav {
+header {
   font-size: 1.125rem;
+
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+
+  gap: 1.4rem;
+
+  h1 {
+    font-size: 1.4rem
+  }
+
 }
 
 hr {
@@ -119,10 +128,6 @@ a {
 
 .hidden {
   display: none!important;
-}
-
-.font-title {
-  font-size: calc(2rem + 7vw)
 }
 
 .font-sub-title{
@@ -193,6 +198,7 @@ pre {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  justify-items: start;
 }
 
 .grid > * {
@@ -205,9 +211,9 @@ body {
 }
 
 main,
-nav,
+header,
 footer {
-  max-width: 70rem;
+  max-width: 58rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -267,8 +273,8 @@ h3::before,
 h4::before,
 h5::before,
 h6::before {
-  border-left: 0.22em solid var(--highlights-color);
-  padding-left: 0.11em;
+  border-left: 0.6rem solid var(--highlights-color);
+  padding-left: 0.6em;
   content: '';
 }
 
@@ -333,6 +339,15 @@ ul.list-post > li:hover {
   backdrop-filter: brightness(150%) blur(4px);
 }
 
+/*
 .note {
   
 }
+*/
+/*
+.fa,
+.fab,
+.fas {
+  color: var(--highlights-color);
+}
+*/
