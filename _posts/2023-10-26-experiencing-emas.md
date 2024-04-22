@@ -5,7 +5,7 @@ tags: personal development
 ---
 This is just a small chapter 0 on my trip to learn and use emacs.
 
-For my personal use, I have been mostly using [vscodium](https://vscodium.com) and [code OSS](https://github.com/microsoft/vscode/wiki/Differences-between-the-repository-and-Visual-Studio-Code) interchangeably.
+For my personal use, I have been mostly using [vscodium](https://vscodium.com). At work IntelliJ is my tool of choice.
 
 After falling victim to a "personal productivity" video spree thanks to YouTube's recommendation algorithm, I came out thinking "I should try out emacs". Yeah, a weird conclusion.
 
