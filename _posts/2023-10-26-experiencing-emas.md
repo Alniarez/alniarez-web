@@ -7,7 +7,7 @@ This is just a small chapter 0 on my trip to learn and use emacs.
 
 For my personal use, I have been mostly using [vscodium](https://vscodium.com). At work IntelliJ is my tool of choice.
 
-After falling victim to a "personal productivity" video spree thanks to YouTube's recommendation algorithm, I came out thinking "I should try out emacs". Yeah, a weird conclusion.
+After falling victim of a "personal productivity" video spree thanks to YouTube's recommendation algorithm, I came out thinking "I should try out emacs". Yeah, a weird conclusion.
 
 I am not ready to dive deep into using terminal applications as my only text editor, to take a side in the vim vs emacs war, or to try different niche products such as Kakoune.
 
