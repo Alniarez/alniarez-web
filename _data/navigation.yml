@@ -4,9 +4,9 @@
 #- name: Projects
 #  link: /projects
 #  icon: fa fa-cubes fa-fw
-- name: Photography
-  link: /photography
-  icon: fa fa-camera-retro fw
+#- name: Photography
+#  link: /photography
+#  icon: fa fa-camera-retro fw
 - name: Blog
   link: /blog
   icon: fa fa-blog fa-fw
