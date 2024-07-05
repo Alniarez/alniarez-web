@@ -5,7 +5,7 @@
 	
 	<nav>
 		{% for item in site.data.navigation %}	{% assign link = item.link | append: '/' %} {% assign link_part = nav_part[1] | append: '/' | prepend: '/' %}
-		<a {% if link  == current[0] or item.link  == current[0] or link_part == link %}class='underlined'{% endif %} href="{{ item.link }}"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+		<a {% if link  == current[0] or item.link  == current[0] or link_part == link %}class='underlined'{% endif %} href="{{ item.link }}">{{ item.emoji }} {{ item.name }}</a>
 		{% endfor %}
 	</nav>
 </header>

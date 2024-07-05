@@ -18,24 +18,22 @@ I am a software engineer working as a frontend developer in Karlsruhe, Germany,
 
 I have passion for technology, videogames, roleplaying, cosplay, anime and music.
 
-## Mail me {% icon fa fa-envelope fa-fw  %}
-
-For mundane conversations: [🖱](#){: class="secretMailto" data-secret="ujG.fkxVd%40RLyxkUfS" onmouseover="showSecretEmail()"}
+## Mail me 📥
 
 For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fkSuqHp%40LdyjoSgUSTkuxyyLOb" onmouseover="showSecretEmail()"}
 
-## Chat with me {% icon fas fa-comments %}
+## Chat with me 💬
 
-{% icon fab fa-discord font-big %} Discord: *@Alniarez*
+🌈 Discord: *@Alniarez*
 
 ## Find me on
 
-[{% icon fab fa-github font-big %} Github](https://github.com/alniarez)
-[{% icon fab fa-linkedin font-big %} LinkedIn](https://www.linkedin.com/in/jorge-sierra-miranda/)
-[{% icon fab fa-twitter-square font-big %} Twitter](https://twitter.com/Alniarez)
-[{% icon fab fa-instagram font-big %} Instagram](https://www.instagram.com/alniarez/)
-[{% icon fab fa-youtube font-big %} YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
-[{% icon fab fa-steam-square font-big %} Steam](https://steamcommunity.com/id/Alniarez/)
+[⌨️ Github](https://github.com/alniarez)
+[👔 LinkedIn](https://www.linkedin.com/in/jorge-sierra-miranda/)
+[🚽 Twitter](https://twitter.com/Alniarez)
+[📷 Instagram](https://www.instagram.com/alniarez/)
+[📺 YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
+[👾 Steam](https://steamcommunity.com/id/Alniarez/)
 {: .grid}
 
 <script defer src="/assets/js/encryption.js"></script>

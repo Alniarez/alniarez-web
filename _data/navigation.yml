@@ -1,15 +1,15 @@
 - name: Home
   link: /
-  icon: fa fa-home fa-fw
+  emoji: 🏚️
 #- name: Projects
 #  link: /projects
-#  icon: fa fa-cubes fa-fw
+#  emoji: 🚧
 #- name: Photography
 #  link: /photography
-#  icon: fa fa-camera-retro fw
+#  emoji:  📸
 - name: Blog
   link: /blog
-  icon: fa fa-blog fa-fw
+  emoji: 📓
 - name: Notes
   link: /notes
-  icon: fa fa-sticky-note fa-fw
+  emoji: 📄
