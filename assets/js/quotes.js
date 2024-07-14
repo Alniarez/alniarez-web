@@ -1,5 +1,5 @@
 /* Quotes shamelessly ripped off from http://moleman.awardspace.co.uk/ */
-var r_quote = new Array ();
+let r_quote = [];
 r_quote[0] = "My name is Hans. Drinking has ruined my life. I'm 31 years old!";
 r_quote[1] = "I think that I shall never see, My cataracts are blinding me";
 r_quote[2] = "The eating of an orange is a lot like a good marriage";
@@ -54,8 +54,7 @@ r_quote[50] = "Very good";
 r_quote[50] = "Certainly does!";
 
 function setQuote() {
-    var quote = r_quote[Math.floor(Math.random() * r_quote.length)];
-    document.getElementById('quote').innerHTML = quote;
+    document.getElementById('quote').innerHTML = r_quote[Math.floor(Math.random() * r_quote.length)];
 }
 
 setQuote();
