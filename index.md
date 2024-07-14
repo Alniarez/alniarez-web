@@ -20,7 +20,7 @@ I have passion for technology, videogames, roleplaying, cosplay, anime and music
 
 ## Mail me 📥
 
-For professional inquiries: [🖱](#){: class="secretMailto" data-secret="uHG.fkSuqHp%40LdyjoSgUSTkuxyyLOb" onmouseover="showSecretEmail()"}
+For professional inquiries: [🖱️](#){: class="secretMailto" data-secret="uHG.fkSuqHp%40LdyjoSgUSTkuxyyLOb" onmouseover="showSecretEmail()"}
 
 ## Chat with me 💬
 
