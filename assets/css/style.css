@@ -33,25 +33,38 @@ html {
     color: var(--text-color);
     background: var(--color-bg-0);
 
+
+    min-height: 100%;
+
+    padding: 0;
+    margin: 0;
+
     background-image: url('../images/cora.small.png');
     background-position: right bottom;
     background-repeat: no-repeat;
 
-    padding: 2rem;
+    box-shadow: inset 2rem 2rem  var(--highlights-color);
 
-    min-height: 100%;
-}
+    body {
+        display: flex;
+        flex-flow: column;
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+
+        padding: 2rem
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
- &::first-letter {
-     color: var(--highlights-color);
- }
+    &::first-letter {
+        color: var(--highlights-color);
+    }
 }
 
 h1 {
@@ -213,11 +226,10 @@ table tr {
     & > * {
         min-width: 0;
     }
-}
 
-body {
-    display: flex;
-    flex-flow: column;
+    & > *::first-letter {
+        font-size: 1.25rem;
+    }
 }
 
 main,
@@ -249,6 +261,10 @@ nav {
         &:hover {
             text-decoration: underline;
         }
+    }
+
+    & > *::first-letter {
+        font-size: 1.25rem;
     }
 
 }
