@@ -6,6 +6,8 @@ noindex: yes
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c0d59738-5ec5-44ae-81e5-947c414bdfd0/deploy-status)](https://app.netlify.com/sites/alniarez/deploys)
 
+Build date: {{ site.time | date_to_rfc822 }}
+
 # 🍪 Cookies policy 🍪
 
 Any cookies present on this website are strictly necessary.
