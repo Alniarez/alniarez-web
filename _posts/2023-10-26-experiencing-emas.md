@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Experiencing emacs
-tags: personal development
+tags: personal
 ---
 This is just a small chapter 0 on my trip to learn and use emacs.
 
@@ -19,6 +19,6 @@ First, I have started writing a small cheat sheet for my obsidian vault. After c
 
 ![Look mom, I am using emacs!](/assets/images/blog/2023-10-23/emacs.png "Look mom, I am using emacs!"){: .thumbnail .image-gallery-thumbnail}
 
-So far, I am being way slower than I would be with my usual IDE, but for the first time using this massive tool, it's not that bad. 
+So far, I am being way slower than I would be with my usual IDE, but for the first time using this massive tool, it's not that bad.
 
 {% include image-viewer.html %}

@@ -43,7 +43,7 @@ html {
     background-position: right bottom;
     background-repeat: no-repeat;
 
-    box-shadow: inset 2rem 2rem  var(--highlights-color);
+    box-shadow: inset 1.35rem 1.35rem  var(--highlights-color);
 
     body {
         display: flex;
