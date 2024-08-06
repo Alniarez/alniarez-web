@@ -5,7 +5,7 @@ description: Hello, I'm Jorge Sierra, aka Alniarez. This is my personal website 
 og: yes
 ---
 
-I am Jorge Sierra Miranda. Welcome to my ~~personal website~~ lair. Here you can find some the stuff that comes out of my spare time: software, games, photography and other shenanigans.
+I am Jorge Sierra Miranda. Welcome to my personal website. Here you can find some the stuff that comes out of my spare time: software, games, photography and other shenanigans.
 {: .font-sub-title}
 
 # About me
