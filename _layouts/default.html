@@ -1,24 +1,27 @@
 ---
 ---
 <!DOCTYPE html>
+<html lang="en">
 <title>{{ page.title | Alniarez }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fff759" />
+<meta name="theme-color" content="#fff759">
 
 {% if page.redirect %}
-<meta http-equiv="refresh" content="6;url={{ page.redirect }}" />
+<meta http-equiv="refresh" content="6;url={{ page.redirect }}">
 {% endif %}
 {% if page.og %}
-<meta property="og:title" content="{{ page.title | Alniarez }}" />
-<meta property="og:type" content="profile" />
-<meta property="og:url" content="https://alniarez.de{{ page.url }}" />
-<meta property="og:description" content="{{ page.description }}" />
-<meta property="og:image" content="https://alniarez.de/assets/images/default.png" />
+<meta name="description" content="{{ page.description }}">
+
+<meta property="og:title" content="{{ page.title | Alniarez }}">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://alniarez.de{{ page.url }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:image" content="https://alniarez.de/assets/images/default.png">
 {% endif %}
 {% if page.noindex %}
 <meta name="robots" content="noindex">
-<meta name="googlebot" content="noindex" />
+<meta name="googlebot" content="noindex">
 {% endif %}
 
 {% if page.imageviewer %}
@@ -38,3 +41,5 @@
 </main>
 
 {% include footer.html %}
+
+</html>
