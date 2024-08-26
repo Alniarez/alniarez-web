@@ -5,7 +5,7 @@ tags: personal
 ---
 On the 8th of July Cora passed away.
 
-![Cora under a blanket eating breakfast](/assets/images/blog/2024-07-08/cora-0.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora under a blanket eating breakfast](/assets/images/blog/2024-07-15/cora-0.jpg){: .thumbnail .image-gallery-thumbnail}
 
 Cora was my senior female guinea pig.
 I adopted her alongside [Lars](https://alniarez.de/blog/2023/04/18/lars-memorial/).
@@ -19,8 +19,8 @@ The smallest of them all, yet the most bossy and pushy of the group.
 A punk and an anarchist, no rules applied to her.
 If a hay rack was knocked down, a new door on a cardboard hideout created, or a secret pee/poop was found under the sofa; No doubt she would be the culprit 100% of the time, and she would take pride on her actions!
 
-![Cora the rebel front](/assets/images/blog/2024-07-08/cora-1.jpg){: .thumbnail .image-gallery-thumbnail}
-![Cora the rebel rear](/assets/images/blog/2024-07-08/cora-2.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora the rebel front](/assets/images/blog/2024-07-15/cora-1.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora the rebel rear](/assets/images/blog/2024-07-15/cora-2.jpg){: .thumbnail .image-gallery-thumbnail}
 
 Despite her attitude, on Saturday night she started to develop a bloat, unrelated to any other problem she had before. 
 She did not improve on Sunday and on sunday she had an emergency vet visit.
@@ -33,7 +33,7 @@ She asked me to go back into her enclosure in the classic way she always did whe
 
 When I put her back in the enclosure she walked into the hay feeder. She lied in there, with half of her body buried into the hay. No more than 10 minutes later she died on that very position.
 
-![Cora getting into the hay just as I dropped her in the enclosure](/assets/images/blog/2024-07-08/cora-3.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora getting into the hay just as I dropped her in the enclosure](/assets/images/blog/2024-07-15/cora-3.jpg){: .thumbnail .image-gallery-thumbnail}
 
 It was all very sudden. I was not ready for this, not even a little. 
 
@@ -43,12 +43,12 @@ Cora was a great help with Minna.
 She kept Minna active and in good company.
 Now Minna and I are alone. 
 
-![Cora and Minna trying to tell me something (they want another breakfast)](/assets/images/blog/2024-07-08/cora-4.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora and Minna trying to tell me something (they want another breakfast)](/assets/images/blog/2024-07-15/cora-4.jpg){: .thumbnail .image-gallery-thumbnail}
 
 She got buried next to Lars on the weekend.
 After one year, they are united again, sleeping together again.
 
-![Cora's remains on her tomb next to Lars](/assets/images/blog/2024-07-08/cora-5.jpg){: .thumbnail .image-gallery-thumbnail}
+![Cora's remains on her tomb next to Lars](/assets/images/blog/2024-07-15/cora-5.jpg){: .thumbnail .image-gallery-thumbnail}
 
 > We will miss you. I love you Cora.
 
