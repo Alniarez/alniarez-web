@@ -4,12 +4,12 @@
 #- name: Projects
 #  link: /projects
 #  emoji: 🚧
-#- name: Photography
-#  link: /photography
-#  emoji:  📸
 - name: Blog
   link: /blog
   emoji: 📓
+- name: Photography
+  link: /photography
+  emoji:  📸
 - name: Notes
   link: /notes
   emoji: 📄

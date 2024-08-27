@@ -4,7 +4,6 @@ title: Home - Alniarez
 description: Hello, I'm Jorge Sierra, aka Alniarez. This is my personal website showcasing my games, software projects and other random shenanigans.
 og: yes
 ---
-
 I am Jorge Sierra Miranda. Welcome to my personal website. Here you can find some the stuff that comes out of my spare time: software, games, photography and other shenanigans.
 {: .font-sub-title}
 
@@ -12,7 +11,7 @@ I am Jorge Sierra Miranda. Welcome to my personal website. Here you can find som
 
 I am Jorge Sierra Miranda, I go by the name of Alniarez on the Internet.
 
-I was born in Gijón, Asturias in 1993. 
+I was born in [Gijón](https://en.wikipedia.org/wiki/Gij%C3%B3n), [Asturias](https://en.wikipedia.org/wiki/Asturias) in 1993.
 
 I am a software engineer working as a frontend developer in Karlsruhe, Germany,
 
