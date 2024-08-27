@@ -46,7 +46,7 @@ Now Minna and I are alone.
 ![Cora and Minna trying to tell me something (they want another breakfast)](/assets/images/blog/2024-07-15/cora-4.jpg){: .thumbnail .image-gallery-thumbnail}
 
 She got buried next to Lars on the weekend.
-After one year, they are united again, sleeping together again.
+After one year, they are united, sleeping together again.
 
 ![Cora's remains on her tomb next to Lars](/assets/images/blog/2024-07-15/cora-5.jpg){: .thumbnail .image-gallery-thumbnail}
 
