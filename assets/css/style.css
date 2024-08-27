@@ -386,4 +386,8 @@ ul.list-post {
         background-color: var(--color-bg-1);
     }
 
+    a {
+        font-size: 1.2rem;
+    }
+
 }
