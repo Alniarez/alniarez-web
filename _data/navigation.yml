@@ -10,6 +10,6 @@
 - name: Photography
   link: /photography
   emoji:  📸
-#- name: Notes
-#  link: /notes
-#  emoji: 📄
+- name: Notes
+  link: /notes
+  emoji: 📄
