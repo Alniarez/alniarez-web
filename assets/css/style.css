@@ -49,6 +49,7 @@ html {
         display: flex;
         flex-flow: column;
 
+        scrollbar-gutter: stable;
 
         padding: 2rem
     }
