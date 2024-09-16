@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Alniarez's personal website",
+    "short_name": "Alniarez's site",
     "icons": [
         {
             "src": "/assets/images/favicon/android-chrome-192x192.png",
@@ -13,6 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "theme_color": "#fff759",
+    "background_color": "#282828"
 }
