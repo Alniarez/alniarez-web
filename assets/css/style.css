@@ -17,6 +17,8 @@
     --tag-color-personal: #AA2424;
     --tag-color-development: #4877E6;
     --tag-color-website: #4532A2;
+
+    --color-transparent: transparent;
 }
 
 ::selection {
@@ -265,7 +267,7 @@ nav {
     }
 
     & > *::first-letter {
-        font-size: 1.25rem;
+        font-size: 1.33rem;
     }
 
 }
@@ -387,8 +389,8 @@ ul.list-post {
         background-color: var(--color-bg-1);
     }
 
-    a {
-        font-size: 1.2rem;
+    a.icon {
+        font-size: 2rem;
     }
 
 }

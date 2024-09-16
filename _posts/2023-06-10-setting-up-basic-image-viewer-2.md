@@ -107,7 +107,6 @@ dialog .controls {
 
 dialog .controls button {
   border: none;
-  padding: 0;
   color: var(--highlights-color);
   background-color: var(--color-transparent);
   font-size: 2rem;
