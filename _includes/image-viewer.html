@@ -1,97 +1,108 @@
 <style>
-.thumbnail {
-  max-width: 320px;
-  max-height: 320px;
-}
+    .thumbnail {
+        max-width: 320px;
+        max-height: 320px;
+    }
 
-.thumbnail-height {
-  max-height: 320px;
-}
+    .thumbnail-height {
+        max-height: 320px;
+    }
 
-dialog[open] {
-  max-width: 96vw;
-  max-height: 96vh;
-}
+    dialog[open] {
+        max-width: 96vw;
+        max-height: 96vh;
+    }
 
-dialog figure {
-  max-width: calc(95vw - 32px);
-  max-height: calc(95vh - 32px);
+    dialog figure {
+        max-width: calc(95vw - 32px);
+        max-height: calc(95vh - 32px);
 
-  margin: 0;
+        margin: 0;
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
-  justify-items: center;
-  align-items: center;
-  gap:16px
-}
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        justify-items: center;
+        align-items: center;
+        gap: 16px
+    }
 
-dialog figure img{
-  max-width: calc(94vw - 82px);
-  max-height: calc(94vh - 82px);
-}
+    dialog figure img {
+        max-width: calc(94vw - 82px);
+        max-height: calc(94vh - 82px);
+    }
 
-dialog figure figcaption {
-  max-height: 50px;
-}
+    dialog figure figcaption {
+        max-height: 50px;
+    }
 
-dialog .controls {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+    dialog .controls {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
+    }
 
-dialog .controls button {
-  border: none;
-  color: var(--highlights-color);
-  background-color: var(--color-transparent);
-  font-size: 2rem;
-  margin: 1rem;
-  padding: 1rem;
-  cursor: pointer;
-}
+    dialog .controls button {
+        border: none;
+        color: var(--highlights-color);
+        background-color: var(--color-transparent);
+        font-size: 2rem;
+        margin: 1rem 1rem 0 0;
+        padding: 1rem;
+        cursor: pointer;
+        display: flex;
+        gap: 1rem;
+        justify-content: end;
+    }
 
-dialog .controls button .label {
-  /*
-  display: none;
-  visibility: hidden;
-  */
-  opacity: 0;
-  transition: opacity 1s;
-}
+    dialog .controls button .label {
+        /*
+        display: none;
+        visibility: hidden;
+        */
+        opacity: 0;
+        transition: opacity 1s;
+    }
 
-dialog .controls button:hover .label,
-dialog .controls button:focus .label,
-dialog .controls button:focus-within .label {
-  /*
-  display: initial;
-  visibility: initial;
-  */
-  opacity: 1;
-}
+    dialog .controls button:hover .label,
+    dialog .controls button:focus .label,
+    dialog .controls button:focus-within .label {
+        /*
+        display: initial;
+        visibility: initial;
+        */
+        opacity: 1;
+    }
 
 </style>
 
 <dialog>
     <figure>
-      <img src="#" alt="image">
-      <figcaption>image</figcaption>
+        <img src="#" alt="image">
+        <figcaption>image</figcaption>
     </figure>
     <div class="controls">
         <button onclick="closeDialog()"><span class="label">Close </span>❌</button>
+        <button onclick="openSource()"><span class="label">Source file </span>🖼️</button>
     </div>
 </dialog>
 
 
 <script defer>
-      function openDialog(){
+    function openSource() {
+        window.open(document.querySelector("dialog").querySelector('img').src, "_blank")
+    }
+
+    function openDialog() {
         const dialog = document.querySelector("dialog")
         //dialog.show() // Opens a non-modal dialog
         dialog.showModal() // Opens a modal
     }
 
-    function closeDialog(){
+    function closeDialog() {
         const dialog = document.querySelector("dialog")
         dialog.close()
     }
@@ -99,7 +110,7 @@ dialog .controls button:focus-within .label {
     function showImage(imageSRC, imageText) {
         const dialog = document.querySelector("dialog")
 
-        if(!dialog.open){
+        if (!dialog.open) {
             openDialog()
         }
 
@@ -109,12 +120,15 @@ dialog .controls button:focus-within .label {
 
         let caption = dialog.querySelector('figcaption')
         caption.innerText = imageText
+
+        let imageLink = dialog.querySelector('a')
+        imageLink.href = imageSRC
     }
 
     document.querySelectorAll('.image-gallery-thumbnail').forEach(item => {
         // console.dir(item)
         item.addEventListener('click', event => {
-          showImage(item.src, item.alt)
+            showImage(item.src, item.alt)
         })
     })
 </script>

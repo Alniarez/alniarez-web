@@ -192,6 +192,10 @@ img.limit-size {
     max-height: 36rem;
 }
 
+.image-gallery-thumbnail {
+    cursor: pointer;
+}
+
 .flex {
     display: flex;
 
@@ -385,12 +389,21 @@ ul.list-post {
     padding: .5rem;
     transition: background-color 0.2s;
 
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+
     &:hover {
         background-color: var(--color-bg-1);
     }
 
     a.icon {
         font-size: 2rem;
+    }
+
+    .note-thumbnail {
+        max-width: 10rem;
+        max-height: 10rem;
     }
 
 }
