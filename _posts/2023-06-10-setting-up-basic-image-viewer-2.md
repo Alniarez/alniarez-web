@@ -3,7 +3,7 @@ layout: post
 title: "Setting up a basic image viewer with javascript part 2"
 tags: website development
 ---
-This post is a follow up of [a previous post](/blog/2023/05/04/setting-up-basic-image-viewer/).
+This post is a follow up of [a previous post](/blog/2023/05/04/setting-up-basic-image-viewer/) and it is currently in use on this site (albeit probably updated). Check the current code on [github](https://github.com/Alniarez/alniarez-web/blob/master/_includes/image-viewer.html).
 
 With the new [dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) the toy implementation that I came out previosly is automatically outdated.
 
@@ -143,6 +143,6 @@ I preffer with all falls together just by being smart in using grid, flex and in
 # For part 3
 Why a part 3?
 This solution works well for plain javascript and html, but I would want to use the possible functionality of jekyll and creating a custom tags.
-Coming soon.
+~~Coming soon.~~
 
 {% include image-viewer.html %}
