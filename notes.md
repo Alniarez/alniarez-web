@@ -9,7 +9,7 @@ Me, screaming into the void.
 ---
 
 {% for note in site.data.notes %}
-{{ note.note }} {% if note.image %}![image for note {{ note.date | date: "%c" }}](/assets/images/notes/{{ note.image }}){: .note-thumbnail .image-gallery-thumbnail} {% endif %}  
+{{ note.note }} {% if note.image %}![{{ note.note }} - {{ note.date | date: "%c" }}](/assets/images/notes/{{ note.image }}){: .note-thumbnail .image-gallery-thumbnail} {% endif %}  
 *{{ note.date | date: "%c" }}*
 {: .note}
 {% endfor %}
