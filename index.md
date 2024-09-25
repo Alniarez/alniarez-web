@@ -32,7 +32,6 @@ For professional inquiries: [🖱️](#){: class="secretMailto" data-secret="uHG
 [🚽 Twitter](https://twitter.com/Alniarez)
 [📷 Instagram](https://www.instagram.com/alniarez/)
 [📺 YouTube](https://www.youtube.com/channel/UCapN1clZl8sar00SQ0rafSA/)
-[👾 Steam](https://steamcommunity.com/id/Alniarez/)
 {: .grid}
 
 <script defer src="/assets/js/encryption.js"></script>
