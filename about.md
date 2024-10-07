@@ -24,4 +24,4 @@ This next table contains the cookies that, as of right now, I know are present i
   - Lists
   - Add style for the post preview in [/blog](https://alniarez.de/blog/)
   - Code block and inline code
-* Check [markdown](https://jekyllrb.com/docs/configuration/markdown/) condifuration and look for nice to have stuff
+* Check [markdown configuration](https://jekyllrb.com/docs/configuration/markdown/) and look for nice to have stuff
