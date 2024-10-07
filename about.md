@@ -19,7 +19,7 @@ This next table contains the cookies that, as of right now, I know are present i
 | __cf_bm | .alniarez.de | Cloudflare set the cookie to support Cloudflare Bot Management. | 30 minutes | Functional |
 
 # TODO
-* Add ir improve the style
+* Add or improve the style
   - Tables
   - Lists
   - Add style for the post preview in [/blog](https://alniarez.de/blog/)
