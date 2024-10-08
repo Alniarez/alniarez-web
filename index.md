@@ -7,6 +7,8 @@ og: yes
 I am Jorge Sierra Miranda. Welcome to my personal website. Here you can find some the stuff that comes out of my spare time: software, games, photography and other shenanigans.
 {: .font-sub-title}
 
+This site is a sandbox for me to play around. Don't taky anything here too seriosly.
+
 # About me
 
 I am Jorge Sierra Miranda, I go by the name of Alniarez on the Internet.
