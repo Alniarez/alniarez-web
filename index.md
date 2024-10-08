@@ -7,7 +7,7 @@ og: yes
 I am Jorge Sierra Miranda. Welcome to my personal website. Here you can find some the stuff that comes out of my spare time: software, games, photography and other shenanigans.
 {: .font-sub-title}
 
-This site is a sandbox for me to play around. Don't taky anything here too seriosly.
+This site is a sandbox for me to play around in. Don't take anything here too seriously.
 
 # About me
 
